@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: hello
+
+server:
+  port: 8085
+  servlet:
+    context-path: /myapp
+
+logging:
+  level:
+    root: INFO
